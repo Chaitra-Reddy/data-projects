@@ -1,0 +1,39 @@
+select *
+from firstproject.jobs
+
+-- correct the rows where company name is not present
+
+select company, job_title, TRIM(SUBSTRING(job_title, 1, LOCATE("-", job_title)-1))
+from firstproject.jobs
+where company = ""
+
+update firstproject.jobs
+set company = TRIM(SUBSTRING(job_title, 1, LOCATE("-", job_title)-1))
+where company = ""
+
+-- delete empty rows
+
+select *
+from firstproject.jobs
+where company = "" and job_title = ""
+
+delete
+from firstproject.jobs
+where company = "" and job_title = ""
+
+-- get the city from the location column
+
+select location,
+TRIM(SUBSTRING(location, 1, LOCATE(",", location)-1)) as city
+from firstproject.jobs
+
+alter table firstproject.jobs
+add column city varchar(255)
+
+update firstproject.jobs
+set city = TRIM(SUBSTRING(location, 1, LOCATE(",", location)-1))
+
+
+
+
+

@@ -24,11 +24,11 @@
 
 ### Rollercoaster speeds plot
 
-![Coaster speeds plot](../complete/output_21_1.png "Coaster speeds plot")
+![Coaster speeds plot](./complete/output_21_1.png "Coaster speeds plot")
 
 ### Rollercoaster numeric values correlation w.r.t each other
 
-![Coaster numeric values correlation](/complete/output_29_1.png "Coaster numeric values correlation")
+![Coaster numeric values correlation](./complete/output_29_1.png "Coaster numeric values correlation")
 
 <hr>
 

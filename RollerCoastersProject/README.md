@@ -20,11 +20,11 @@
 
 ### Rollercoaster speed vs height plot
 
-![Coaster speed vs height plot](/complete/output_25_1.png "Coaster speed vs height plot")
+![Coaster speed vs height plot](./complete/output_25_1.png "Coaster speed vs height plot")
 
 ### Rollercoaster speeds plot
 
-![Coaster speeds plot](/complete/output_21_1.png "Coaster speeds plot")
+![Coaster speeds plot](../complete/output_21_1.png "Coaster speeds plot")
 
 ### Rollercoaster numeric values correlation w.r.t each other
 
